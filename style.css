@@ -1,0 +1,36 @@
+body {
+	text-align: center;
+	margin: 0px;
+	padding: 0px;
+	font-family: Impact, Charcoal, sans-serif;
+}
+
+.bingocontainer {
+	border-style: solid;
+}
+
+.bingorow {
+}
+
+.bingocell {
+	height: 15vmin;
+	width: 15vmin;
+	border-color: black;
+	border-style: solid;
+	display: inline-block;
+	padding: 1vmin;
+	margin-left: -5px;
+	vertical-align: middle;
+	position: relative;
+}
+
+.bingocell>* {
+	margin: 10px;
+}
+
+.bingocell input{
+	position: absolute;
+	width: 100px;
+	bottom: 10px;
+	left:10px;
+}
