@@ -9,9 +9,6 @@ body {
 	border-style: solid;
 }
 
-.bingorow {
-}
-
 .bingocell {
 	height: 15vmin;
 	width: 15vmin;
@@ -24,13 +21,9 @@ body {
 	position: relative;
 }
 
-.bingocell>* {
-	margin: 10px;
-}
-
 .bingocell input{
 	position: absolute;
-	width: 100px;
+	width: 15vmin;
 	bottom: 10px;
-	left:10px;
+	left:1vmin;
 }
